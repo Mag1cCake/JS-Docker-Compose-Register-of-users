@@ -37,13 +37,18 @@ Yevhenii Yarmak 44105
 
    ```bash
    git clone https://github.com/Mag1cCake/JS-Docker-Compose-Register-of-users.git
+   ```
+   ```bash
    cd JS-Docker-Compose-Register-of-users
+   ```
 
 2. **Uruchom aplikację za pomocą Docker Compose**:
 
 W katalogu głównym projektu uruchom poniższe polecenie:
 
+```bash
 docker-compose up --build
+```
 
 3. **Otwórz aplikację w przeglądarce**:
 
@@ -51,9 +56,19 @@ Frontend i backend będą dostępne pod adresem:
 
 http://localhost:5000
 
-Technologie
-Język programowania: JavaScript (Node.js)
-Baza danych: MongoDB
-Frontend: EJS, HTML, CSS
-Backend: Node.js, Express.js
-Docker: Docker Compose do zarządzania środowiskiem
+## Technologie
+
+### **Język programowania**
+- JavaScript (Node.js)
+
+### **Baza danych**
+- MongoDB
+
+### **Frontend**
+- EJS, HTML, CSS
+
+### **Backend**
+- Node.js, Express.js
+
+### **Docker**
+- Docker Compose do zarządzania środowiskiem
